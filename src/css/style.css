@@ -1,35 +1,34 @@
-@media (max-width: 480px) {
-    #logomj {
-      width: 5%;
-      height: auto;
-        float: left;
-    }
+
+
+@media (max-width: 480px){
+  .menu {
+    font-size: 2vw;
   }
-  
-@media (min-width: 480px , max-width: 768px)  {
-    #logomj {
-      width: 3.5%;
-      height: auto;
-        float: left;
-    }
 }
 
-@media (min-device-width: 768px) and (max-device-width: 1024px) {
-    #logomj {
-        width: 3.5%;
-        height: auto;
-          float: left;
-      }
+@media (min-width: 480px , max-width: 768px ){
+  .menu {
+    font-size: 2vw;
+  }
+}
+
+@media (min-device-width: 768px ) and (max-device-width: 1024px) {
+  .menu {
+    font-size: 2vw;
+    }
 }
 
 @media (min-width: 1024px) {
-    #logomj {
-      width: 3%;
-      height: auto;
-        float: left;
-    }
-}
+  .menu {
+    font-size: 24px;
+  }
   
+}
+#logomj {
+  width: 3.3%;
+  height: auto;
+    float: left;
+}
 
 .header-menu{
     width: 100%;
@@ -38,7 +37,6 @@
 
 .menu{
     list-style-type: none;
-    font-size: 24;
     font: weight;
     margin: 0;
     padding: 0;
