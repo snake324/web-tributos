@@ -1,0 +1,35 @@
+@media (max-width: 480px) {
+    #logomj {
+      width: 5%;
+      height: auto;
+        float: left;
+    }
+  }
+  
+@media (min-width: 768px) {
+    #logomj {
+      width: 3.5%;
+      height: auto;
+        float: left;
+    }
+}
+  
+
+
+.header-menu{
+    width: 100%;
+    overflow: hidden;
+}
+
+.menu{
+    list-style-type: none;
+    font-size: 24;
+    font: weight;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 5%;
+}
