@@ -6,7 +6,7 @@
   }
 }
 
-@media (min-width: 480px , max-width: 768px ){
+@media (min-width: 480px) and (max-width: 768px ){
   .menu {
     font-size: 2vw;
   }
@@ -24,11 +24,14 @@
   }
 
 }
-
+body{
+    background: linear-gradient(180deg, #340B14 0%, #320B14 0.01%, #100E0E 33.33%, #A80328 66.67%, rgba(255, 0, 57, 0) 100%);
+    background-repeat: no-repeat;
+}
 #logomj {
   width: 3.3%;
   height: auto;
-    float: left;
+  float: left;
 }
 
 .header-menu{
@@ -39,11 +42,15 @@
 .menu{
     list-style-type: none;
     font: weight;
+    color: white;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-evenly;
-    background-color: aqua;
     margin: auto;
     margin-top: 5%;
+}
+#banner-img{
+    width: 100%;
+
 }
