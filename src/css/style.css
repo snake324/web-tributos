@@ -60,19 +60,53 @@ body{
 
 }
 
-.landing{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 200px;
-  width: 70%;
+.landing {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  margin-left: 15%;
+  margin-top: 2%;
+  width:70%;
+  grid-template-areas:
+    "area1 area1 area4 area4 "
+    "area2 area3 area4 area4";
+}
+
+.area1 {
+  grid-area: area1; 
+  background-color: black;
+}
+
+.area2 { 
+  grid-area: area2; 
+  background-color: black;
+}
+
+.area3 { 
+  grid-area: area3; 
+  background-color: black;
+}
+
+.area4 { 
+  grid-area: area4; 
+  background-color: black;
+}
+
+.area4 p{
+  text-align: end;
+  color: white;
+}
+
+.area4 h2{
+  text-align: start;
+  color: white;
 }
 
 .landing img{
-  width:100%;
-  object-fit: cover;
+  width: 100%;
+  height: 90%;
 }
-
-.landing
 
 footer{
   background: linear-gradient(180deg, rgba(232, 179, 75, 0) 0%, rgba(231, 175, 67, 0.539683) 32.81%, #E6AC3C 100%);
