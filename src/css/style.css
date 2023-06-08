@@ -1,5 +1,3 @@
-
-
 @media (max-width: 480px){
   .menu {
     font-size: 2vw;
@@ -24,10 +22,13 @@
   }
 
 }
+
 body{
     background: linear-gradient(180deg, #340B14 0%, #320B14 0.01%, #100E0E 33.33%, #A80328 66.67%, rgba(255, 0, 57, 0) 100%);
     background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
 }
+
 #logomj {
   width: 3.3%;
   height: auto;
@@ -53,4 +54,24 @@ body{
 #banner-img{
     width: 100%;
 
+}
+
+
+
+footer{
+  background: linear-gradient(180deg, rgba(232, 179, 75, 0) 0%, rgba(231, 175, 67, 0.539683) 32.81%, #E6AC3C 100%);
+}
+
+.copy{
+  margin-left: 10%;
+}
+#logomj1{
+  width:20%;
+  height:auto;
+  object-fit: contain;
+}
+#logomj2{
+  width:0.5%;
+  height:0.5%;
+  object-fit: cover;
 }
