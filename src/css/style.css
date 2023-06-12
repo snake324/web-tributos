@@ -60,6 +60,11 @@ body{
 
 }
 
+a{
+  text-decoration:none;
+  color: white;
+}
+
 .landing {  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
