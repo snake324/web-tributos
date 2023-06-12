@@ -25,7 +25,7 @@ La mayoría de las partes se pueden hacer usando HTML pero para darle una mejor 
 
 * Un link del repositorio  en GitHub de  la web tributo.
 
-* Deploy de la web Tributo en Vercel 
+* Git Pages. 
 
 * Breve explicación escrita de por que escogiste ese personaje o temática en PDF
 
