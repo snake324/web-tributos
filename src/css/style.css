@@ -78,6 +78,10 @@ body{
   background-color: black;
 }
 
+.area1-texto{
+  
+}
+
 .area2 { 
   grid-area: area2; 
   background-color: black;
