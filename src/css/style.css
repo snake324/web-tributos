@@ -146,8 +146,10 @@ a{
   color: white;
 }
 
-.landing img{
-  
+.mj-bio{
+  margin: 20%;
+  font-size: xx-large;
+  color: white;
 }
 
 footer{
